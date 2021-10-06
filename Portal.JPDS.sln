@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Portal.JPDS.Domain", "Portal.JPDS.Domain\Portal.JPDS.Domain.csproj", "{65E19C0B-4BC1-413B-B7E5-77F471828255}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Portal.JPDS.AppCore", "Portal.JPDS.AppCore\Portal.JPDS.AppCore.csproj", "{E458C428-E60D-43AF-B43F-21BAECFE153F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Portal.JPDS.Infrastructure", "Portal.JPDS.Infrastructure\Portal.JPDS.Infrastructure.csproj", "{A443B4A1-6391-4F2E-8AF1-99EE29DCA891}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Portal.JPDS.Web", "Portal.JPDS.Web\Portal.JPDS.Web.csproj", "{329BFC72-EBF3-44E6-809A-EC0871D1D1E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portal.JPDS.WorkerService", "Portal.JPDS.WorkerService\Portal.JPDS.WorkerService.csproj", "{5291C94B-7A23-4D87-B579-8B17C9A32B6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65E19C0B-4BC1-413B-B7E5-77F471828255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65E19C0B-4BC1-413B-B7E5-77F471828255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65E19C0B-4BC1-413B-B7E5-77F471828255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65E19C0B-4BC1-413B-B7E5-77F471828255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E458C428-E60D-43AF-B43F-21BAECFE153F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E458C428-E60D-43AF-B43F-21BAECFE153F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E458C428-E60D-43AF-B43F-21BAECFE153F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E458C428-E60D-43AF-B43F-21BAECFE153F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A443B4A1-6391-4F2E-8AF1-99EE29DCA891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A443B4A1-6391-4F2E-8AF1-99EE29DCA891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A443B4A1-6391-4F2E-8AF1-99EE29DCA891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A443B4A1-6391-4F2E-8AF1-99EE29DCA891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{329BFC72-EBF3-44E6-809A-EC0871D1D1E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329BFC72-EBF3-44E6-809A-EC0871D1D1E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329BFC72-EBF3-44E6-809A-EC0871D1D1E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{329BFC72-EBF3-44E6-809A-EC0871D1D1E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5291C94B-7A23-4D87-B579-8B17C9A32B6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5291C94B-7A23-4D87-B579-8B17C9A32B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5291C94B-7A23-4D87-B579-8B17C9A32B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5291C94B-7A23-4D87-B579-8B17C9A32B6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {772C6F72-F05E-4D5A-9FBD-63A9F287AD94}
+	EndGlobalSection
+EndGlobal

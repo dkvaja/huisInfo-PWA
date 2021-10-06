@@ -1,0 +1,22 @@
+{
+  "name": "HuisInfo",
+  "short_name": "HI",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#fff",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/Content/Images/Favicons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/Content/Images/Favicons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

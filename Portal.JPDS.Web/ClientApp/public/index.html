@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no">
+  <base href="%PUBLIC_URL%/" />
+  <!--
+    manifest.json provides metadata used when your web app is added to the
+    homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+  -->
+  <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/Content/Images/Favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/Content/Images/Favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/Content/Images/Favicons/favicon-16x16.png">  
+  <link rel="mask-icon" href="%PUBLIC_URL%/Content/Images/Favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="%PUBLIC_URL%/Content/Images/Favicons/favicon.ico">
+  <meta name="msapplication-config" content="%PUBLIC_URL%/Content/Images/Favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="manifest" href="%REACT_APP_MANIFEST_URL%">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+  <script src="https://kit.fontawesome.com/574dd85ed9.js" crossorigin="anonymous"></script>
+  <!--
+    Notice the use of %PUBLIC_URL% in the tags above.
+    It will be replaced with the URL of the `public` folder during the build.
+    Only files inside the `public` folder can be referenced from the HTML.
+
+    Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+    work correctly both with client-side routing and a non-root public URL.
+    Learn how to configure a non-root public URL by running `npm run build`.
+  -->
+  <title>Woningdossier</title>
+</head>
+<style type="text/css">
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  .logo {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    transition: 1s opacity;
+    opacity: 0;
+    margin: 0;
+  }
+
+  .logo-visible {
+    opacity: 1;
+  }
+
+  .logo>img {
+    height: 50px;
+  }
+</style>
+
+<body>
+  <noscript>
+    You need to enable JavaScript to run this app.
+  </noscript>
+  <div id="root">
+    <div class="logo" id="logo">
+      <img alt="logo" src="%REACT_APP_API_URL%api/Config/WebLogo" />
+    </div>
+  </div>
+  <script type="text/javascript" src="config.js"></script>
+  <script>
+    setTimeout(function () {
+      document.getElementById("logo").classList.toggle('logo-visible');
+    }, 100);
+    // if ('serviceWorker' in navigator) {
+    //   window.addEventListener('load', function () {
+    //     navigator.serviceWorker.register('worker.js').then(function (registration) {
+    //       console.log('Worker registration successful', registration.scope);
+    //     }, function (err) {
+    //       console.log('Worker registration failed', err);
+    //     }).catch(function (err) {
+    //       console.log(err);
+    //     });
+    //   });
+    // } else {
+    //   console.log('Service Worker is not supported by browser.');
+    // }
+  </script>
+  <!--
+  This HTML file is a template.
+  If you open it directly in the browser, you will see an empty page.
+
+  You can add webfonts, meta tags, or analytics to this file.
+  The build step will place the bundled scripts into the <body> tag.
+
+  To begin the development, run `npm start` or `yarn start`.
+  To create a production bundle, use `npm run build` or `yarn build`.
+-->
+</body>
+
+</html>
